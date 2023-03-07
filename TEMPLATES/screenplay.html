@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content=" width=device-width ,initial-scale=0.1">
+    <title>CINEMOPEDIA</title>
+    <link  rel="stylesheet" href="static/css/My_style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;1,700&family=Zen+Dots&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+</head>
+<body> 
+    <section class="header01">
+        <nav>
+            <a href="index.html"><img  src="static/img/Photo_of_website/reels.png"></a>
+            <div class="linkname" id="links">
+                <!-- menu opening icon but not working             -->
+                <i class="fa fa-sort-desc" onclick="hideMenu()"></i>
+
+                <ul>
+                  <li><a href="DIRECTION.html">DIRECTION</a></li>
+                  <li><a href="/TEMPLATES/screenplay.html">SCREENPLAY</a></li>
+                  <li><a href="https://www.britannica.com/topic/cinematography">CINEMOTOGRAPHY</a></li>
+                    <li><a href="">ACTING</a></li>
+                    <li><a href="">MUSIC</a></li>
+                    <li><a href="">EDITING</a></li>
+                    <li><a href="">ABOUT US</a></li>
+                </ul>
+                <!-- menu close ,but not working-->
+                <i class="fa fa-times-circle-o" onclick="showMenu()" ></i>  
+
+            </div>
+        </nav>            
+        <div class="textbox">
+            <h1>CINEMOPEDIA</h1>
+            <p>A Dream Without Progress Is Nightmare</p>
+            <a href="" class="more-button"> Visit Us <br>More To Learn About Filmmaking</a>
+        
+
+        </div>
+    </section>
+    <!-- audition tag -->
+    <section class="course">
+        <h1>More We Offer</h1>
+        <p>Wish You Become  A Filmmaker<br>We Just Give The Information Not Conducting</p>
+        <div class="row">
+
+            <div class="col-row1">
+                <a href="homepage.html"><h2>AUDITION</h2></a>
+                <p>Click Here To Know About Where Audition</p>
+
+            </div>
+            <div class="col-row1">
+                <a href="homepage.html"><h2>WorkShop</h2></a>
+                <p>Click Here To Know About Where WorkShop</p>
+
+            </div>
+             <div class="col-row1">
+                <a href="homepage.html"><h2>UPDATES</h2></a>
+                <p>Click Here To Know About Audition</p>
+
+            </div>
+        </div>
+
+    </section>
+
+<script>
+    var links=document.getElementById("links")
+    function showmenu(){
+        links.style.right="0";
+    
+    }
+    function hidemenu(){
+        links.style.left="-200px"
+    }
+</script>
+
+
+
+
+
+
+
+</body>
+</html>
